@@ -172,6 +172,9 @@ h3{
     position: relative;
     overflow: hidden;
 }
+.image-col .fa{
+    color: rgb(244, 54, 54);
+}
 .image-col img{
     width: 100%;
     display: block;
