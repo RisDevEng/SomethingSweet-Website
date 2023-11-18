@@ -192,9 +192,8 @@ h3{
     color: rgb(244, 54, 54);
     width: 100%;
     font-weight: 500;
-    color: #070808;
     font-size: 26px;
-    bottom: 0;
+    bottom: 1;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
