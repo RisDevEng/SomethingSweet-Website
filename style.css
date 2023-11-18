@@ -189,11 +189,11 @@ h3{
     background: rgba(88, 164, 187, 0.7);
 }
 .layer .fa{
-    color: rgb(244, 54, 54);
+    color: rgb(18, 18, 18);
     width: 100%;
     font-weight: 500;
     font-size: 26px;
-    bottom: 10;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
