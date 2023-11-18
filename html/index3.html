@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send a Kiss</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #kiss-button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #ff4081;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #kiss-output {
+            margin-top: 20px;
+        }
+
+        .kiss-icon {
+            font-size: 30px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="kiss-button" onclick="sendKiss()">Send a Kiss 💋</button>
+    <div id="kiss-output"></div>
+
+    <script>
+        function sendKiss() {
+            // Create a kiss icon
+            var kissIcon = document.createElement("span");
+            kissIcon.innerHTML = "💋";
+
+            // Display the kiss icon to the user
+            var kissOutput = document.getElementById("kiss-output");
+            kissOutput.innerHTML = "<span class='kiss-icon'>💋</span> Kiss sent! Thank you!";
+        }
+    </script>
+</body>
+
+</html>
