@@ -193,7 +193,7 @@ h3{
     width: 100%;
     font-weight: 500;
     font-size: 26px;
-    bottom: 1;
+    bottom: 10;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
